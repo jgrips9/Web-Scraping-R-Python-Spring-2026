@@ -1,7 +1,7 @@
 #Organized
 install.packages("tidyverse")
 install.packages("rvest")
-install.packages("libridate")
+install.packages("lubridate")
 install.packages("here")
 install.packages("data.table")
 
@@ -136,5 +136,6 @@ for(year in years){
     }
   }
 }
+
 
 write.csv(df, file = "hot100_2025_Jan-Mar.csv")
